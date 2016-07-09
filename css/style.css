@@ -9,7 +9,7 @@ body,
 }
 
 .container {
-	background: #fffce1;
+	background: #fff;
 }
 
 .menu-wrap a {
@@ -272,10 +272,13 @@ body #cdawrap {
 /* /////////////////////////////////////////////////////  */
 /* ////////////////////// Sections ////////////////////// */
 /* /////////////////////////////////////////////////////  */
+/* /////////////////////////////////////////////////////  */
+/* ////////////////////// HOME ////////////////////// */
+/* /////////////////////////////////////////////////////  */
 
 #home
 {
-	min-height: 700px;
+	min-height: 900px;
 	width: 100%;
 	position: relative;
 }
@@ -321,6 +324,7 @@ body #cdawrap {
 	top: 50px;
 	right: 0;
 	background-color: rgba(255,255,255,0.10);
+
 }
 #homeAdLogo
 {
@@ -341,9 +345,57 @@ body #cdawrap {
 	color: #fff;
 	font-size: 4em;
 	text-align: left;
-	padding-top: 150px;
+	padding-top: 125px;
 	padding-left: 75px;
 	font-family: 'Raleway', sans-serif;
+}
+
+#homeAd1 h5
+{
+	font-size: 1.2em;
+	text-align: left;
+	padding-left: 75px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	width: 50%;
+}
+#homeAd1 a
+{
+	padding: 1em 2em;
+	color: #fff;
+	margin-top: 50px;
+	font-size: 1.2em;
+	background-color: #5BD9B3;
+	text-align: left;
+	z-index: 20;
+	position: absolute;
+	left: 75px;
+	top: 350px;
+}
+
+/* /////////////////////////////////////////////////////  */
+/* ////////////////////// Goals ////////////////////// */
+/* /////////////////////////////////////////////////////  */
+
+#goals h2
+{
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	color: #3e3c36;
+	font-weight: 200;
+}
+#goals h2 span
+{
+	color: #5BD9B3;
+	font-weight: 400;
+	padding-left: 30px;
+}
+
+#goals p
+{
+	font-size: 1.8em;
+	color: #727272;
+	padding: 0 5em;
 }
 
 /* /////////////////////////////////////////////////////  */
