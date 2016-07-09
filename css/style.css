@@ -55,7 +55,7 @@ body,
 	border: none;
 	text-indent: 2.5em;
 	color: transparent;
-	background: #3E3C36;
+	background: #2C3E50;
 }
 
 .menu-button::before {
@@ -75,7 +75,7 @@ body,
 /* Menu */
 .menu-wrap {
 	z-index: 999;
-	background: #3E3C36;
+	background: #2C3E50;
 	-webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s;
 	transition: width 0.4s, height 0.4s, transform 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -211,7 +211,7 @@ button:focus {
 
 section {
 	padding: 1em;
-	text-align: center;
+
 }
 
 body #cdawrap {
@@ -313,7 +313,7 @@ body #cdawrap {
 	height: 350px;
 	top: 500px;
 	right: 5%;
-	background-color: #3e3c36;
+	background-color: #2C3E50;
 	z-index: 10;
 }
 #homeAd4
@@ -381,8 +381,9 @@ body #cdawrap {
 {
 	font-size: 3em;
 	font-family: 'Raleway', sans-serif;
-	color: #3e3c36;
+	color: #2C3E50;
 	font-weight: 200;
+	text-align: center;
 }
 #goals h2 span
 {
@@ -396,6 +397,258 @@ body #cdawrap {
 	font-size: 1.8em;
 	color: #727272;
 	padding: 0 5em;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.horirule
+{
+	width: 200px;
+	height: 0;
+	border-top: 2px solid #b6b6b6;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* /////////////////////////////////////////////////////  */
+/* ////////////////////// About ////////////////////// */
+/* /////////////////////////////////////////////////////  */
+
+.grid {
+	margin: 40px auto 120px;
+	max-width: 1000px;
+	width: 90%;
+}
+.grid h2
+{
+	font-size: 3em;
+	color: #2C3E50;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	text-align: center;
+}
+.grid h2 span
+{
+	color: #5BD9B3;
+	font-weight: 400;
+}
+.grid a {
+	float: left;
+	max-width: 350px;
+	width: 33%;
+	color: #333;
+}
+
+.gridalt {
+	margin: 50px 0 -50px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	background: #333;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	margin: 0 0 20px 0;
+	font-family: 'Raleway', sans-serif;
+	color: #5BD9B3;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 2em;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+.grid figcaption h2 span
+{
+	color: #2C3E50;
+}
+.grid figcaption p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	text-align: justify;
+	padding: 0 20px;
+	color: #aaa;
+	font-weight: 300;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+
+.svg1 path {
+	fill: #2C3E50;
+}
+
+.svg2 path{
+	fill: #fff;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+}
+
+/* Individual styles */
+
+
+.grid figure button {
+	top: 50%;
+	left: 50%;
+	border: 3px solid #fff;
+	background: transparent;
+	color: #fff;
+	opacity: 0;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+
+
+/* /////////////////////////////////////////////////////  */
+/* //////////////////// portfolio ////////////////////// */
+/* /////////////////////////////////////////////////////  */
+
+#portfolio
+{
+	background-image: url('../imgs/bg5.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 700px;
+	width: 100%;
+	position: relative;
+	padding: 0;
+}
+#portfolio h2
+{
+	color: #fff;
+	font-size: 4em;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Raleway',sans-serif;
+	padding-top: 50px;
+}
+#portfolio h2 span
+{
+	color: #5BD9B3;
+}
+#workslink
+{
+	color: #fff;
+	padding: 1em 2em;
+	font-family: 'Raleway',sans-serif;
+	font-size: 1.7em;
+	position: absolute;
+	top: 400px;
+  	left: 50%;
+  	z-index: 15;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+	font-weight: 400;
+	background-color: #5BD9B3;
+}
+.shade
+{
+	width: 50%;
+	height: 600px;
+	z-index: 5;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0.15);
+}
+.haze
+{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top: 350px;
+	z-index: 10;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2C3E50+0,2C3E50+100&0+0,1+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c3e50+0,2c3e50+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(44,62,80,0) 0%, rgba(44,62,80,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(44,62,80,0) 0%,rgba(44,62,80,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(44,62,80,0) 0%,rgba(44,62,80,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', endColorstr='#2c3e50',GradientType=0 ); /* IE6-9 */
+
+}
+.featured_contents
+{
+	position: absolute;
+	width: 100%;
+	min-height:400px;
+	top: 650px;
+	background-color: #2C3E50; 
 }
 
 /* /////////////////////////////////////////////////////  */
