@@ -756,6 +756,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	bottom: -80px;
 	right: 10%;
 }
+
+.const
+{
+	font-size: 4em;
+	text-align: center;
+	margin-top: 300px;
+	width: 100%;
+}
 /*
 #contactcard2::before,
 #contactcard2::after {
