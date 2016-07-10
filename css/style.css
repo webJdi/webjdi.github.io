@@ -8,6 +8,15 @@ body,
 	background:#f1f1f1;
 }
 
+#loadscreen
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10000;
+	background-color: #f1f1f1;
+}
+
 .container {
 	background: #fff;
 }

@@ -19,6 +19,7 @@
 		<![endif]-->
 	</head>
 	<body>
+		<div id="loadscreen"></div>
 		<div class="container">
 			<div class="menu-wrap">
 				<nav class="menu">
@@ -181,16 +182,13 @@
 
 		<script src="js/typed.js"></script>
 		<script>
-		    $(function(){
-		        $("#element").typed({
-		            strings: ["Hey there!", "Welcome to my DIMENSION "],
-		            typeSpeed: 0
-		        });
-		    });
+		    
 		</script>
 		<script src="js/snap.svg-min.js"></script>
 		<script>
-			(function() {
+	
+
+				(function() {
 	
 				function init() {
 					var speed = 250,
@@ -216,6 +214,17 @@
 				init();
 
 			})();
+			window.onload=function(){
+			$('#loadscreen').hide();
+			$(function(){
+		        $("#element").typed({
+		            strings: ["Hey there!", "Welcome to my DIMENSION "],
+		            typeSpeed: 0
+		        });
+		    });
+		};
+	
+			
 		</script>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
