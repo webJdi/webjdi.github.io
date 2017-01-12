@@ -1,0 +1,44 @@
+html,body
+{
+	margin:0;
+	padding: 0;
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Raleway',sans-serif;
+}
+#particles-js
+{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+#container
+{
+	width: 100%;
+}
+.unit
+{
+	height: 700px;
+	width: 100%;
+}
+.whitebg
+{
+	background-color: #fff;
+}
+.trans
+{
+	background-color: rgba(256,256,256,0.4);
+}
+.footer
+{
+	height: 50px;
+	width: 100%;
+}
+#page_title
+{
+	text-align: center;
+	color: #fff;
+	font-size: 8em;
+	opacity: 0.9;
+}

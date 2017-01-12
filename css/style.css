@@ -785,8 +785,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 {
 	position: absolute;
 	width: 100%;
-	height:800px;
+	height:950px;
 	top: 650px;
+	padding: 6em;
 	background-color: #2C3E50; 
 }
 .greenhov
@@ -819,7 +820,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	z-index: 10;
 }
 
+.worktabs
+{
+	height: 350px;
+	width: 45%;
+	background-size: cover;
+	margin: 2%;
+	float: left;
+	position: relative;
+}
+.worktabs a
+{
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-weight: 500;
+	font-size: 2.5em;
+	opacity: 0;
+	transition: all 1s;
+	-webkit-transition: all 0.3s;
+}
+.veil
+{
+	height: 350px;
+	width: 50%;
+	margin-left: 50%;
+	background-color: rgba(256,256,256,0.18);
+	transition: all 1s;
+	-webkit-transition: all 0.3s;
+}
+.worktabs:hover .veil
+{
+	width: 50%;
+	margin-left: 0;
+	transition: all 1s;
+	-webkit-transition: all 0.2s;
+}
+.worktabs:hover a
+{
+	opacity: 1;
+	transition: all 1s;
+	-webkit-transition: all 0.3s;
+}
+#vibes
+{
+	background-image: url('../vibes/img/3.jpg');
+}
 
+#multitude
+{
+	background-image: url('../multitude/img/4.jpg');
+}
+#clouds
+{
+	background-image: url('../clouds/assets/img/bg.jpg');
+}
+
+#stockshopp
+{
+	background-image: url('../StockShopp/img/bg2.jpg');
+}
 /* /////////////////////////////////////////////////////  */
 /* ////////////////////// contacts ////////////////////// */
 /* /////////////////////////////////////////////////////  */
@@ -831,7 +892,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	background-image: url('../imgs/bg7.jpg');
 	background-position: center;
 	background-size: 100% auto;
-	margin-top: 750px;
+	margin-top: 900px;
 	position: relative;
 }
 
