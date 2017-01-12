@@ -362,16 +362,16 @@ body #cdawrap {
 	position: relative;
 }
 
-#homeAd1
+.homeAd1
 {
 	position: absolute;
 	width: 100%;
 	height: 600px;
 	left: 0;
 	top: 0;
-	background: url(../imgs/bg1.jpg);
+	background: url(../imgs/bg11.jpg);
 	background-size: 100% auto;
-	background-position: bottom;
+	background-position: center;
 	background-attachment: fixed;
 }
 
@@ -430,7 +430,7 @@ body #cdawrap {
 	font-family: 'Raleway', sans-serif;
 }
 
-#homeAd1 h5
+.homeAd1 h5
 {
 	font-size: 1.2em;
 	text-align: left;
@@ -439,7 +439,7 @@ body #cdawrap {
 	font-weight: 200;
 	width: 50%;
 }
-#homeAd1 a
+.homeAd1 a
 {
 	padding: 1em 2em;
 	color: #fff;
@@ -911,4 +911,13 @@ footer
 		display: none;
 	}
 
+}
+
+
+.particles-js-canvas-el
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	 z-index: 1;
 }
