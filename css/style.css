@@ -6,6 +6,7 @@ body,
 	width: 100%;
 	height: 100%;
 	background:#f1f1f1;
+	letter-spacing: 0.1em;
 }
 /* /////////////////////////////////////////////////////  */
 /* ////////////////////// Loadscreen ////////////////////// */
@@ -388,12 +389,23 @@ body #cdawrap {
 #homeAd2 h5
 {
 	color: #2C3E50;
-	font-size: 2em;
+	font-size: 1.2em;
+	margin: 0;
+	opacity: 0.8;
+	padding: 3em 1em 0 2em;
+}
+#homeAd2 h2 strike
+{
+	opacity: 0.8;
+	font-weight: 200;
 }
 #homeAd2 h2
 {
 	color: #2C3E50;
-	font-size: 4em;
+	font-size: 3em;
+	margin: 0;
+	padding: 1em;
+	padding-top: 1.8em;
 }
 #homeAd3
 {
@@ -404,6 +416,32 @@ body #cdawrap {
 	right: 5%;
 	background-color: #2C3E50;
 	z-index: 10;
+	padding: 4em;
+	padding-top: 5em;
+}
+#homeAd3 h3
+{
+	color: #fff;
+	font-size: 1.9em;
+	
+	margin: 0;
+}
+#homeAd3 h3 span
+{
+	font-weight: 200;
+	font-size: 0.8em;
+}
+#homeAd3 p
+{
+	color: #fff;
+	font-size: 1.2em;
+	
+	text-align: justify;
+}
+#homeAd3 a
+{
+	color: #5BD9B3;
+	
 }
 #homeAd4
 {
@@ -460,7 +498,7 @@ body #cdawrap {
 	z-index: 20;
 	position: absolute;
 	left: 75px;
-	top: 350px;
+	top: 380px;
 }
 
 /* /////////////////////////////////////////////////////  */
@@ -487,7 +525,7 @@ body #cdawrap {
 	font-size: 1.8em;
 	color: #727272;
 	padding: 0 5em;
-	text-align: center;
+	text-align: justify;
 	margin-bottom: 100px;
 }
 
@@ -593,6 +631,7 @@ body #cdawrap {
 	font-weight: 300;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
+	letter-spacing: 0.05em;
 }
 
 .grid figcaption h2,
