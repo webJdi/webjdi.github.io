@@ -8,6 +8,10 @@
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
+
+
+// Thank you Codrops for coming to our rescue every now and then!!
+
 (function() {
 
 	var bodyEl = document.body,
@@ -48,3 +52,4 @@
 	init();
 
 })();
+
