@@ -428,7 +428,7 @@ body #cdawrap {
 {
 	color: #fff;
 	font-size: 1.9em;
-	
+	text-align: right;
 	margin: 0;
 }
 #homeAd3 h3 span
@@ -441,7 +441,7 @@ body #cdawrap {
 	color: #fff;
 	font-size: 1.2em;
 	
-	text-align: justify;
+	text-align: right;
 }
 #homeAd3 a
 {
@@ -841,6 +841,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	background-color: #f1f1f1;
 	z-index: 10;
 	overflow: hidden;
+}
+#connect-btn
+{
+	padding: 0.5em 1em;
+	transition: 0.2s;
+	border-radius: 1em;
+	float: right;
+}
+#connect-btn:hover
+{
+	background-color: #5BD9B3;
+	color: #2C3E50;
 }
 
 #logoport img
