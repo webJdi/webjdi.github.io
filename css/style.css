@@ -780,10 +780,32 @@ body #cdawrap {
 }
 .skills
 {
-	background: #1abc9c;
-	width: 4em;
+	display: block;
+}
+.skills li
+{
+	background: #fff;
+	width: 22%;
 	height: 150px;
-	
+	float: left;
+	display: inline-block;
+	margin: 10px;
+	border-bottom: 4px solid #1abc9c;
+	transition: 0.2s;
+	color: #000;
+}
+.skills li h5
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+.skills li:hover
+{
+	font-size: 1.5em;
+	border-bottom-width: 7px;
+	border-color: #fff;
+	color: #fff !important;
+	background-color: #1abc9c;
 }
 
 
