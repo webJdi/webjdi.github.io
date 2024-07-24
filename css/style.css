@@ -560,6 +560,12 @@ body #cdawrap {
 	max-width: 1000px;
 	width: 90%;
 }
+.grid2
+{
+	margin: 40px auto 50px;
+	max-width: 1000px;
+	width: 90%;
+}
 .grid h2
 {
 	font-size: 3em;
@@ -734,7 +740,7 @@ body #cdawrap {
 	background-image: url('../imgs/bg5.jpg');
 	background-position: center;
 	background-size: cover;
-	min-height: 700px;
+	min-height: 400px;
 	width: 100%;
 	position: relative;
 	padding: 0;
@@ -771,7 +777,7 @@ body #cdawrap {
 .shade
 {
 	width: 50%;
-	height: 600px;
+	height: 400px;
 	z-index: 5;
 	position: absolute;
 	top: 0;
@@ -794,6 +800,8 @@ body #cdawrap {
 	transition: 0.2s;
 	color: #000;
 }
+	  
+
 .skills li h5
 {
 	text-align: center;
@@ -815,7 +823,7 @@ body #cdawrap {
 	position: absolute;
 	width: 100%;
 	height: 300px;
-	top: 350px;
+	top: 100px;
 	z-index: 10;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2C3E50+0,2C3E50+100&0+0,1+100 */
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c3e50+0,2c3e50+100&0+0,1+100 */
@@ -829,11 +837,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 {
 	position: absolute;
 	width: 100%;
-	height:950px;
-	top: 650px;
+	min-height:950px;
+	top: 400px;
 	padding: 6em;
 	background-color: #2C3E50; 
 }
+.featured_contents div h3
+{
+	text-align: center;
+	font-size: 1.5em;
+}
+.heading-container
+{
+	margin: 0 auto;
+	border-bottom: 3px solid #1abc9c;
+	padding: 1em;
+}
+
+
+.projects-1
+{
+	list-style: none;
+}
+.projects-1 li
+{
+	padding: 0.5em;
+}
+.projects-1 li a
+{
+	color: #fff;
+	transition: 0.2s;
+}
+.projects-1 li a:hover
+{
+	transform: scale(1.1);
+}
+
+.projects-1 li::before
+	{
+		content: "";
+		background-color: #1abc9c;
+		border-radius: 50%;
+		background-size: contain;
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		position: relative;
+		top: 0.1rem;
+		margin-right: 0.5rem;
+	}
+
+
 .greenhov
 {
 	border-bottom:2px solid rgba(255,255,255,0);
@@ -857,7 +911,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	width: 100px;
 	border-radius: 50%;
 	position: absolute;
-	bottom: -50px;
+	top: -50px;
 	left: 50%;
 	margin-left: -50px;
 	background-color: #f1f1f1;
@@ -885,8 +939,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 
 .worktabs
 {
-	height: 350px;
-	width: 45%;
+	height: 150px;
+	width: 20%;
 	background-size: cover;
 	margin: 2%;
 	float: left;
@@ -899,14 +953,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	top: 20px;
 	right: 20px;
 	font-weight: 500;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	opacity: 0;
 	transition: all 1s;
 	-webkit-transition: all 0.3s;
 }
 .veil
 {
-	height: 350px;
+	height: 150px;
 	width: 50%;
 	margin-left: 50%;
 	background-color: rgba(256,256,256,0.18);
@@ -943,7 +997,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57ffffff', e
 }
 #clouds
 {
-	background-image: url('../clouds/assets/img/bg.jpg');
+	background-image: url('../imgs/bg8.jpg');
 }
 
 #stockshopp
@@ -956,12 +1010,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57ffffff', e
 
 #contact
 {
-	height: 500px;
+	height: 400px;
 	width: 100%;
 	background-image: url('../imgs/bg7.jpg');
 	background-position: center;
 	background-size: 100% auto;
-	margin-top: 900px;
+	background-attachment: fixed;
+	margin-top: 1100px;
 	position: relative;
 }
 
