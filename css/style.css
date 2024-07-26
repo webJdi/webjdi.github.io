@@ -472,6 +472,11 @@ body #cdawrap {
 	margin-left: -50px;
 	z-index: 15;
 	overflow: hidden;
+	transition: 1s;
+}
+#homeAdLogo:hover
+{
+	transform: rotateY(180deg) rotateX(360deg) rotateY(180deg);
 }
 
 #homeAdLogo img
@@ -917,6 +922,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	background-color: #f1f1f1;
 	z-index: 10;
 	overflow: hidden;
+	transition: 1s;
+	
+}
+#logoport:hover
+{
+	transform: rotateY(180deg) rotateX(360deg) rotateY(180deg);
 }
 #connect-btn
 {
@@ -1058,7 +1069,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57ffffff', e
 	background-color: #fff;
 	bottom: -80px;
 	left: 10%;
+	padding: 6em 4em;
 }
+
+#contactcard1 a
+{
+	width: 100%;
+	text-align: right;
+	display: block;
+	margin: 1em;
+}
+
 #contactcard2
 {
 	width: 40%;
@@ -1068,8 +1089,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57ffffff', e
 	background-color: #2C3E50;
 	bottom: -80px;
 	right: 10%;
+	padding: 6em 4em;
+	box-sizing: border-box;
 }
-
+#contactcard2 a
+{
+	z-index: 11;
+	color: #fff !important;
+	vertical-align: middle;
+	font-size: 1.2em;
+	margin: 0 2em;
+}
 .const
 {
 	font-size: 4em;
