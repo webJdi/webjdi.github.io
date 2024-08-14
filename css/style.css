@@ -398,6 +398,29 @@ body #cdawrap {
 	margin: 0;
 	opacity: 0.8;
 	padding: 3em 1em 0 2em;
+	font-weight: 400;
+	width: 80%;
+}
+#homeAd2 h5 span
+{
+	display: block;
+	margin-top: 0.5em;
+	color: #1abc9c;
+	font-weight: 800;
+
+}
+#resbtn
+{
+	padding: 0.5em 1em;
+	transition: 0.2s;
+	border-radius: 1em;
+	margin: 1em 0;
+	float: left;
+}
+#resbtn:hover
+{
+	background-color: #5BD9B3;
+	color: #2C3E50;
 }
 #homeAd2 h2 strike
 {
@@ -493,6 +516,7 @@ body #cdawrap {
 	padding-top: 125px;
 	padding-left: 75px;
 	font-family: 'Raleway', sans-serif;
+	width: 40vw;
 }
 
 .homeAd1 h5
