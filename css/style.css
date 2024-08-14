@@ -414,8 +414,10 @@ body #cdawrap {
 	padding: 0.5em 1em;
 	transition: 0.2s;
 	border-radius: 1em;
-	margin: 1em 0;
+	margin: 2em 0;
 	float: left;
+	color: #111;
+	border: 1px solid #5BD9B3;
 }
 #resbtn:hover
 {
@@ -445,7 +447,7 @@ body #cdawrap {
 	background-color: #2C3E50;
 	z-index: 10;
 	padding: 4em;
-	padding-top: 5em;
+	padding-top: 6em;
 }
 #homeAd3 h3
 {
@@ -816,35 +818,41 @@ body #cdawrap {
 .skills
 {
 	display: block;
+	box-sizing: border-box;
+}
+.skills h5
+{
+	text-align: center;
+	color: #2C3E50;
 }
 .skills li
 {
-	background: #fff;
-	width: 22%;
-	height: 150px;
+	background-color: rgba(256,256,256,0.1);
+	width: 5vw;
+	height: 10vh;
 	float: left;
-	display: inline-block;
-	margin: 10px;
-	border-bottom: 4px solid #1abc9c;
-	transition: 0.2s;
-	color: #000;
+	margin: 2em;
+	transition: 0.4s;
+	color: #2c3e50;
+	text-align: center;
+	list-style-type: none;
+	padding: 0.3em;
 }
-	  
-
+.skills li img
+{
+	width: 100%;
+	height: 100%;
+}
+.skills li:hover
+{
+	animation: jello;
+	animation-duration: 0.8s;
+}
 .skills li h5
 {
 	text-align: center;
 	font-size: 1.2em;
 }
-.skills li:hover
-{
-	font-size: 1.5em;
-	border-bottom-width: 7px;
-	border-color: #fff;
-	color: #fff !important;
-	background-color: #1abc9c;
-}
-
 
 
 .haze
@@ -959,6 +967,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c3e50', e
 	transition: 0.2s;
 	border-radius: 1em;
 	float: right;
+	border: 1px solid #5BD9B3;
 }
 #connect-btn:hover
 {
