@@ -366,6 +366,12 @@ body #cdawrap {
 	width: 100%;
 	position: relative;
 }
+#detailedWork
+{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
 
 .homeAd1
 {
@@ -380,7 +386,19 @@ body #cdawrap {
 	background-position: center;
 	background-attachment: fixed;
 }
-
+.workAd1
+{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	display: block !important;
+	left: 0;
+	top: 0;
+	background: url(../imgs/6.jpg);
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment: fixed;
+}
 #homeAd2
 {
 	position: absolute;
@@ -390,6 +408,27 @@ body #cdawrap {
 	left: 5%;
 	background-color: #fff;
 	z-index: 10;
+}
+#workAd2
+{
+	position: absolute;
+	width: 45%;
+	height: 150px;
+	top: 550px;
+	left: 5%;
+	background-color: #fff;
+	z-index: 10;
+	padding: 6em 4em;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: space-evenly;
+}
+.worktitle
+{
+	padding: 4em 75px 2em 75px;
+	font-size: 1.2em;
 }
 #homeAd2 h5
 {
@@ -449,6 +488,28 @@ body #cdawrap {
 	padding: 4em;
 	padding-top: 6em;
 }
+#workAd3
+{
+	position: absolute;
+	width: 45%;
+	height: 200px;
+	top: 500px;
+	right: 5%;
+	background-color: #2C3E50;
+	z-index: 10;
+	padding: 4em;
+	padding-top: 6em;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: space-evenly;
+	color: #fff;
+}
+#workAd3 a
+{
+	color: #fff;
+}
 #homeAd3 h3
 {
 	color: #fff;
@@ -482,7 +543,43 @@ body #cdawrap {
 	right: 0;
 	background-color: rgba(255,255,255,0.12);
 }
-
+#workAd4
+{
+	position: absolute;
+	width: 50%;
+	height: 600px;
+	top: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0.12);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.border-img
+{
+	width: 50vh;
+	height: 50vh;
+	border: 1px solid #fff;
+	border-radius: 3em;
+	padding: 2em;
+	transition: 0.3s;
+	z-index: 15;
+}
+.border-img:hover
+{
+	transform: scale(1.05);
+}
+.img_container
+{
+	border-radius: 3em;
+	overflow: hidden;
+	
+}
+.img_container img
+{
+	height: 100%;
+	width: 100%;
+}
 
 #homeAdLogo
 {
@@ -503,12 +600,37 @@ body #cdawrap {
 {
 	transform: rotateY(180deg) rotateX(360deg) rotateY(180deg);
 }
-
 #homeAdLogo img
 {
 	width: 100%;
 	height: 100%;
 }
+
+#workAdLogo
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-color: #f1f1f1;
+
+	position: absolute;
+	top: 575px;
+	left: 50%;
+	margin-left: -50px;
+	z-index: 15;
+	overflow: hidden;
+	transition: 1s;
+}
+#workAdLogo:hover
+{
+	transform: rotateY(180deg) rotateX(360deg) rotateY(180deg);
+}
+#workAdLogo img
+{
+	width: 100%;
+	height: 100%;
+}
+
 
 .element
 {
@@ -520,7 +642,16 @@ body #cdawrap {
 	font-family: 'Raleway', sans-serif;
 	width: 40vw;
 }
-
+.element2
+{
+	color: #fff;
+	font-size: 1em;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 75px;
+	font-family: 'Raleway', sans-serif;
+	width: 40vw;
+}
 .homeAd1 h5
 {
 	font-size: 1.2em;
@@ -1295,6 +1426,7 @@ footer
 	bottom: 0;
 
 }
+
 
 
 
